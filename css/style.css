@@ -164,7 +164,9 @@ a:hover {
   border-color: #a78bd6;
 }
 .project-card img {
+  display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
   background: linear-gradient(135deg, #6b1034, #6d3fa0);
