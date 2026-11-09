@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nicole Alilo Mbo | UX Designer</title>
+  <meta name="description" content="Portfolio di Nicole Alilo Mbo, UX designer: case study, ricerca e progettazione di esperienze digitali.">
+
+  <!-- Open Graph (anteprima quando condividi il link sui social) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nicole Alilo Mbo | UX Designer">
+  <meta property="og:description" content="Portfolio di Nicole Alilo Mbo, UX designer: case study, ricerca e progettazione di esperienze digitali.">
+  <meta property="og:url" content="https://nicolealilombo97.github.io/portfolio/">
+  <meta property="og:image" content="https://nicolealilombo97.github.io/portfolio/img/og-cover.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Bootstrap (framework front end) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- I miei stili (compilati da Sass) -->
+  <link rel="stylesheet" href="css/style.css?v=1.2">
+</head>
+<body>
+
+  <!-- Menu sticky: resta sempre in alto mentre si scorre -->
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top site-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><img src="favicon.svg" alt="" width="30" height="30" class="brand-mark">Nicole<span class="accent">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Apri il menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#progetti">Progetti</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO con fascia diagonale -->
+    <header class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">UX Designer</p>
+        <h1>Progetto esperienze digitali che le persone capiscono al primo sguardo.</h1>
+        <p class="lead">Mi chiamo Nicole Alilo Mbo. Trasformo ricerca e dati in interfacce chiare, accessibili e utili.</p>
+        <a href="#progetti" class="btn btn-accent btn-lg">Vedi i progetti</a>
+      </div>
+    </header>
+
+    <!-- CHI SONO: layout con Flexbox -->
+    <section class="section" id="chi-sono">
+      <div class="container">
+        <div class="about d-flex flex-column flex-md-row gap-4 align-items-md-center">
+          <div class="about-photo">
+            <!-- Sostituisci con la tua foto: metti il file in img/foto.jpg -->
+            <img src="img/foto.jpg" alt="Ritratto di Nicole Alilo Mbo" width="320" height="320">
+          </div>
+          <div class="about-text">
+            <h2>Chi sono</h2>
+            <p>Sono una UX Designer con un background nel digital sales e nel marketing, esperienze che mi hanno permesso di sviluppare una visione trasversale del mondo digitale. Mi occupo di progettare esperienze intuitive e funzionali, combinando attenzione ai bisogni delle persone, capacità di analisi e obiettivi di business.</p>
+            <p>Credo nel valore di un design capace di semplificare le interazioni, risolvere problemi concreti e rendere i prodotti digitali più accessibili e significativi. Mi contraddistinguono curiosità, pensiero analitico e attenzione ai dettagli.</p>
+            <ul class="skills list-unstyled d-flex flex-wrap gap-2">
+              <li>User research</li>
+              <li>Wireframing</li>
+              <li>Prototipazione</li>
+              <li>Figma</li>
+              <li>Heuristic evaluation</li>
+              <li>HTML &amp; CSS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGETTI: layout con CSS Grid -->
+    <section class="section section-dark" id="progetti">
+      <div class="container">
+        <h2>Progetti</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="img/last-minute.jpg" alt="Copertina del progetto Last Minute Sotto Casa" width="600" height="600" loading="lazy">
+            <div class="project-body">
+              <p class="project-tag">UX Analysis &amp; Redesign</p>
+              <h3>Last Minute Sotto Casa</h3>
+              <p>Redesign della landing page di una piattaforma che permette ai negozi di prossimità di vendere prodotti invenduti o in scadenza a prezzo ridotto: analisi, insight UX e strategia di redesign.</p>
+              <div class="card-links">
+                <a href="https://www.figma.com/design/rDW81xzu7jbZUJsMpBIiN0/Last-minute-sotto-casa?node-id=28-6&amp;t=XPggrIGC75QlqXwN-4" target="_blank" rel="noopener" class="card-link">Case study su Figma &rarr;</a>
+                <a href="pdf/last-minute-sotto-casa.pdf" target="_blank" rel="noopener" class="card-link">Case study in PDF &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/orizon.jpg" alt="Copertina del progetto Orizon: persona seduta su una scogliera al tramonto" width="600" height="600" loading="lazy">
+            <div class="project-body">
+              <p class="project-tag">Progettazione grafica</p>
+              <h3>Orizon</h3>
+              <p>Brand identity per un nuovo modo di viaggiare, consapevole e contro l'over-tourism: strategia di marca, identità, sistema visivo e applicazioni.</p>
+              <div class="card-links">
+                <a href="pdf/orizon-progettazione-grafica.pdf" target="_blank" rel="noopener" class="card-link">Case study in PDF &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/yoyo.jpg" alt="Copertina del progetto YoYo: sessione di yoga accessibile con sedia a rotelle sullo sfondo" width="600" height="600" loading="lazy">
+            <div class="project-body">
+              <p class="project-tag">Copywriting</p>
+              <h3>YoYo</h3>
+              <p>Blog post narrativo in prima persona per un progetto di yoga accessibile e adattivo: target, buyer persona, tone of voice, headline e principi di persuasione di Cialdini.</p>
+              <div class="card-links">
+                <a href="pdf/yoyo-copywriting.pdf" target="_blank" rel="noopener" class="card-link">Case study in PDF &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/ecodream.jpg" alt="Copertina del case study Ecodream: borsa sostenibile con una piantina" width="600" height="600" loading="lazy">
+            <div class="project-body">
+              <p class="project-tag">Discovery &middot; Accessibilità &middot; Wireframing &middot; UI design</p>
+              <h3>Ecodream</h3>
+              <p>Progetto completo per un brand di borse e zaini sostenibili in materiali di recupero: discovery, analisi di accessibilità, wireframe desktop e mobile, design system e UI design.</p>
+              <div class="card-links">
+                <a href="pdf/ecodream-user-interface.pdf" target="_blank" rel="noopener" class="card-link">Case study in PDF &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0">&copy; 2026 Nicole Alilo Mbo</p>
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item"><a href="https://www.linkedin.com/in/nicole-alilo-mbo/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li class="list-inline-item"><a href="https://github.com/nicolealilombo97" target="_blank" rel="noopener">GitHub</a></li>
+        <li class="list-inline-item"><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
